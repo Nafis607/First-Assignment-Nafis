@@ -9,15 +9,15 @@ main {
 header {
 
     background-image: url(../resources/Banner\ Image.png);
-
-    padding: 177px 344px;
+    
     background-repeat: no-repeat;
+    padding: 177px 344px;
     border-radius: 20px;
-
 }
 
+
 #Banner-title {
-    color: rgb(243, 243, 8);
+    color: rgb(252, 252, 248);
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -271,6 +271,11 @@ header {
 
 .images img {
     height: 435px;
+    filter: grayscale(.5);
+}
+.images img:hover{
+    filter: grayscale(0);
+    transform: scale(0.8) rotate(7deg);
 }
 
 .images {
