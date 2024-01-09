@@ -1,3 +1,4 @@
+
 header,
 main {
     margin: 50px 120px;
@@ -16,7 +17,7 @@ header {
 }
 
 #Banner-title {
-    color: rgb(14, 14, 13);
+    color: rgb(243, 243, 8);
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -25,7 +26,7 @@ header {
 }
 
 .Banner-content {
-    color: rgb(0, 0, 0);
+    color: rgb(243, 243, 8);
     text-align: center;
     font-size: 72px;
     font-weight: 900;
@@ -167,11 +168,19 @@ header {
 
 }
 
-#offer h3 {
+.third-colum h3{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-colum h3 {
     color: #070211;
     font-size: 48px;
     font-weight: 900;
 }
+
+
 
 .common {
     color: rgba(7, 2, 17, 0.60);
@@ -335,6 +344,7 @@ footer {
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 
