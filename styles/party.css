@@ -172,6 +172,7 @@ header {
     font-size: 48px;
     font-weight: 900;
 }
+
 .common {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
@@ -210,34 +211,59 @@ header {
 }
 
 .function2 {
-    color: #F00; 
-    font-size: 72px;    
+    color: #F00;
+    font-size: 72px;
     font-weight: 900;
     margin: 0px 0px;
 }
 
-.function2 #black{
+.function2 #black {
     color: #070211;
 }
 
 /* Diccount page  */
-#rec1{
-   position: absolute;
-   margin: 50px 100px 0px 815px ;
- 
+#rec1 {
+    position: absolute;
+    margin: 50px 100px 0px 815px;
+
 }
-#rec2{
+
+#rec2 {
     position: absolute;
     width: 1245px;
-    margin: 480px 100px 0px 0px ;
+    margin: 480px 100px 0px 0px;
 }
 
-#gro44{
+#gro44 {
     position: absolute;
-    margin: 180px 200px 0px 680px ;
+    margin: 180px 200px 0px 680px;
 }
 
-#gto75{ 
+#gto75 {
+
     position: absolute;
-    margin: 50px 0px 0px 0px ;
+    margin: 50px 0px 0px 0px;
+}
+
+.gift h6 {
+    margin: 900px 0px 0px 0px;
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.gift h3{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+margin: 2px 0px ;
+}
+
+.images img{
+    height: 435px;
+}
+
+.images{
+    margin: 50px 0px;
 }
