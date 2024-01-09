@@ -219,3 +219,25 @@ header {
 .function2 #black{
     color: #070211;
 }
+
+/* Diccount page  */
+#rec1{
+   position: absolute;
+   margin: 50px 100px 0px 815px ;
+ 
+}
+#rec2{
+    position: absolute;
+    width: 1245px;
+    margin: 480px 100px 0px 0px ;
+}
+
+#gro44{
+    position: absolute;
+    margin: 180px 200px 0px 680px ;
+}
+
+#gto75{ 
+    position: absolute;
+    margin: 50px 0px 0px 0px ;
+}
