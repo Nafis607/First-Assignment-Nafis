@@ -1,16 +1,18 @@
 header,
 main {
-    margin: 50px 180px;
-    
+    margin: 50px 200px;
+
 }
 
 /* Banner works */
 header {
-    
+
     background-image: url(../resources/Banner\ Image.png);
+    
     padding: 177px 344px;
     background-repeat: no-repeat;
     border-radius: 20px;
+
 }
 
 div li {
@@ -18,15 +20,49 @@ div li {
 }
 
 #Banner-title {
-    color: rgb(226, 8, 117);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 32px;
     font-weight: 400;
+   
 }
 
 .Banner-content {
-    color: rgb(226, 8, 117);
+    color: rgb(2, 2, 0);
     text-align: center;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* All main design */
+.off {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-bottom: 44px;
+}
+
+.offholi {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.offall {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.happyimag{
+    display: flex;
+    justify-content: center;
+    /* padding: 0px; */
+    margin: 40px;
 }
