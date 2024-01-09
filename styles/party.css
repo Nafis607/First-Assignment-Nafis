@@ -1,6 +1,6 @@
 header,
 main {
-    margin: 50px 200px;
+    margin: 50px 120px;
 
 }
 
@@ -70,13 +70,15 @@ header {
     background-repeat: no-repeat;
 
     height: 600px;
+    /* width: 1200px; */
     display: flex;
     justify-content: space-around;
-    padding: 40px 120px;
+    padding: 10px 120px;
     align-items: center;
     margin: 120px 0px;
     border-radius: 20px;
     gap: 20px;
+    
 }
 
 .welcome-title {
@@ -119,6 +121,7 @@ header {
     text-align: center;
     padding: 80px 0px;
     box-shadow : 10px 120px  100px #efebeb inset;
+    margin-bottom: 150px;
 }
 
 .time-table {
@@ -145,4 +148,49 @@ header {
 
 .line{
     margin: 10px 0px;
+}
+
+
+
+/* offer Styles */
+#offer{
+    display: flex;
+    align-items: center;
+}
+
+
+
+#offer h5{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+
+}
+
+#offer h3{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+
+#offer p{
+color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+}
+
+#offer #bonus{
+    border: 15px solid #F00; 
+    border-radius:  463px;
+    padding: 30px;
+    margin-right: 360px ;
+}
+
+.first-colum{
+
+    margin-right: 15px;
+}
+.third-colum{
+    margin-left: 950px;
+    position: absolute;
+    margin-right: 100px;
 }
